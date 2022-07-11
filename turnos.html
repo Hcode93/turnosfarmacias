@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="es" dir="ltr">
 
 <head>
   <meta charset="UTF-8">
@@ -23,7 +23,6 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-GX2953YY5Q"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-
     function gtag() {
       dataLayer.push(arguments);
     }
@@ -113,8 +112,6 @@
     flex-wrap: wrap;
     max-width: 350px;
     font-size: medium;
-    /* max-height: 500px;
-    overflow-y: scroll; */
   }
   .zona {
     width: 100%;
@@ -205,74 +202,74 @@
       <div class="zona">
         <h3>Zona 1</h3>
         <div class="zona-contenedor">
-          <a href="">Esmeraldas</a>
-          <a href="">Imbabura</a>
-          <a href="">Carchi</a>
-          <a href="">Sucumbios</a>
+          <a onclick="Esmeraldas_View()">Esmeraldas</a>
+          <a onclick="Imbabura_View()">Imbabura</a>
+          <a onclick="Carchi_View()">Carchi</a>
+          <a onclick="Sucumbios_View()">Sucumbios</a>
         </div>
       </div>
       <div class="zona">
         <h3>Zona 2</h3>
         <div class="zona-contenedor">
-          <a href="">Pichincha (Excepto el Distrito Metropolitano de Quito)</a>
-          <a href="">Napo</a>
-          <a href="">Orellana</a>
+          <a onclick="Pichincha_View()">Pichincha (Excepto el Distrito Metropolitano de Quito)</a>
+          <a onclick="Napo_View()">Napo</a>
+          <a onclick="Orellana_View()">Orellana</a>
         </div>
       </div>
       <div class="zona">
         <h3>Zona 3</h3>
         <div class="zona-contenedor">
-          <a href="">Cotopaxi</a>
-          <a href="">Tungurahua</a>
-          <a href="">Chimborazo</a>
-          <a href="">Pastaza</a>
+          <a onclick="Cotopaxi_View()">Cotopaxi</a>
+          <a onclick="Tungurahua_View()">Tungurahua</a>
+          <a onclick="Chimborazo_View()">Chimborazo</a>
+          <a onclick="Pastaza_View()">Pastaza</a>
         </div>
       </div>
       <div class="zona">
         <h3>Zona 4</h3>
         <div class="zona-contenedor">
-          <a href="">Manabí</a>
-          <a href="">Santo Domingo de los Tsáchilas</a>
+          <a onclick="Manabi_View()">Manabí</a>
+          <a onclick="SantoDomingo_View()">Santo Domingo de los Tsáchilas</a>
         </div>
       </div>
       <div class="zona">
         <h3>Zona 5</h3>
         <div class="zona-contenedor">
-          <a href="">Santa Elena</a>
-          <a href="">Bolívar</a>
-          <a href="">Los Ríos</a>
-          <a href="">Galápagos</a>
-          <a href="">Guayas (Excepto Gauayaquil, Samborondón y Durán)</a>
+          <a onclick="SantaElena_View()">Santa Elena</a>
+          <a onclick="Bolivar_View()">Bolívar</a>
+          <a onclick="LosRios_View()">Los Ríos</a>
+          <a onclick="Galapagos_View()">Galápagos</a>
+          <a onclick="Guayas_View()">Guayas (Excepto Gauayaquil, Samborondón y Durán)</a>
         </div>
       </div>
       <div class="zona">
         <h3>Zona 6</h3>
         <div class="zona-contenedor">
-          <a href="">Cañar</a>
-          <a href="">Azuay</a>
-          <a href="">Morona Santiago</a>
+          <a onclick="Cañar_View()">Cañar</a>
+          <a onclick="Azuay_View()">Azuay</a>
+          <a onclick="MoronaSantiago_View()">Morona Santiago</a>
         </div>
       </div>
       <div class="zona">
         <h3>Zona 7</h3>
         <div class="zona-contenedor">
-          <a href="">El Oro</a>
-          <a href="">Loja</a>
-          <a href="">Zamora Chinchipe</a>
+          <a onclick="ElOro_View()">El Oro</a>
+          <a onclick="Loja_View()">Loja</a>
+          <a onclick="ZamoraChinchipe_View()">Zamora Chinchipe</a>
         </div>
       </div>
       <div class="zona">
         <h3>Zona 8</h3>
         <div class="zona-contenedor">
-          <a href="">Guayaquil</a>
-          <a href="">Samborondón</a>
-          <a href="">Durán</a>
+          <a onclick="Guayaquil_View()">Guayaquil</a>
+          <a onclick="Samborondon_View()">Samborondón</a>
+          <a onclick="Duran_View()">Durán</a>
         </div>
       </div>
       <div class="zona">
         <h3>Zona 9</h3>
         <div class="zona-contenedor">
-          <a href="">Distrito Metropolitano de Quito</a>
+          <a onclick="Quito_View()">Distrito Metropolitano de Quito</a>
         </div>
       </div>
     </div>
@@ -304,7 +301,7 @@
     <span>📍Farmacias de turno Galápagos</span>
   </p>
   <!-- App Js -->
-  <script async src="app.js"></script>
+  <script defer src="app.js"></script>
 </body>
 
 </html>
